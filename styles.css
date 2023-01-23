@@ -1,0 +1,27 @@
+.container{
+    display:grid;
+    gap: 20px;
+    grid-template: max-content calc(100vh) / max-content minmax(600px, 1fr);
+    padding-right: 20px;
+}
+.card-block{
+    /* display:grid; */
+}
+.sidebar{
+    /* display:grid; */
+    grid-area: 1 / 1 / 4 / 2;
+}
+.header{
+    grid-area: 1 / 2 / 2 / 4;
+}
+.card-block{
+    grid-area: 2 / 2 / 4 / 4;
+    display:grid;
+    grid-template: max-content / 1fr 300px;
+    
+}
+.card{
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: max-content;
+}
