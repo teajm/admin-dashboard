@@ -5,7 +5,10 @@
     padding-right: 20px;
 }
 .card-block{
-    /* display:grid; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: max-content;
 }
 .sidebar{
     display:grid;
@@ -45,8 +48,11 @@
 .main-content{
     grid-area: 2 / 2 / 4 / 4;
     display:grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 4;
     grid-template: max-content / 1fr 300px;
-    width: fit-content;
     
 }
 #card-block{
