@@ -95,3 +95,14 @@ li{
     display:grid;
     grid-template-rows: max-content;
 }
+.search-input {
+    padding-left: 10px;
+    width: 45vw;
+    max-width: 471px;
+    height: 25px;
+    background-color: rgba(226,232,240,255);
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
