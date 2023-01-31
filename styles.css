@@ -63,11 +63,15 @@
 
 }
 .card{
+    display:grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: max-content;
     background-color: blue;
     width: fit-content;
+    
+
+    
 
 }
 .divider{
@@ -86,3 +90,8 @@ li{
     display:grid;
     row-gap: 15px;
 }   
+
+.trending{
+    display:grid;
+    grid-template-rows: max-content;
+}
