@@ -76,13 +76,14 @@ a:hover{
 }
 .searchlinks{
     display:flex;
-    align-items: center;
+    align-items: end;
     gap:25px;
 }
 .navright{
     display:flex;
     gap:25px;
-    align-items: center;;
+    align-items: end;
+
 }
 .main-content{
     grid-area: 2 / 2 / 4 / 4;
@@ -108,8 +109,20 @@ a:hover{
     grid-auto-rows: max-content;
     background-color: blue;
     width: fit-content;
-    
-
+    background-color: white;
+    width: 48%;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    min-width: 265px;
+    box-shadow: 0px 2px 3px var(--shadow-col);
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(left, var(--shadow-col),#86A3B8 2%, transparent 2%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, var(--shadow-col), #86A3B8 2%, transparent 2%, transparent 100%);
     
 
 }
