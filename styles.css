@@ -235,3 +235,10 @@ p{
     grid-area: 1 / 2 / 4 / 4;
     margin-top: 58px;
 }
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
